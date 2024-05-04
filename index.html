@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>ToDo Drag-Drop</title>
+</head>
+<body>
+
+    <div class="todo-container">
+
+        <form id="add-form">
+            <input type="text" placeholder="New TODO......" id="todo-input">
+            <button type="submit" id="todo-btn">ADD</button>
+        </form>
+
+        <div class="boxes-container">
+
+            <!-- Start TODO -->
+            <div class="box" id="to-do">
+                <h3 class="heading">TODO</h3>
+                
+            </div>
+            <!-- End TODO -->
+
+            <!-- Start Doing -->
+            <div class="box" id="doing">
+                <h3 class="heading">DOING</h3>
+                
+            </div>
+            <!-- End Doing -->
+
+            <!-- Start DONE -->
+            <div class="box" id="done">
+                <h3 class="heading">DONE</h3>
+                
+            </div>
+            <!-- End DONE -->
+
+        </div>
+
+    </div>
+    
+    <script src="JS/main.js"></script>
+</body>
+</html>
